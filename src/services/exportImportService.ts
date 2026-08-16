@@ -21,7 +21,7 @@ export const exportImportService = {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `ai-prompt-vault-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    link.download = `vaultforprompt-backup-${new Date().toISOString().slice(0, 10)}.json`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -37,7 +37,7 @@ export const exportImportService = {
     }
 
     if (!parsed || (typeof parsed !== 'object' && !Array.isArray(parsed))) {
-      throw new Error('Invalid backup file. Please select a valid AI Prompt Vault JSON backup.');
+      throw new Error('Invalid backup file. Please select a valid VaultForPrompt JSON backup.');
     }
 
     const rawPrompts = Array.isArray(parsed) ? parsed : parsed.prompts;

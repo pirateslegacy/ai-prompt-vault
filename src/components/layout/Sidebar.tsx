@@ -103,10 +103,10 @@ export const Sidebar: React.FC<{
             </div>
             <div>
               <h1 className="font-bold text-slate-900 dark:text-white text-base tracking-tight leading-tight">
-                AI Prompt Vault
+                VaultForPrompt
               </h1>
-              <p className="text-[10px] font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
-                AI Engineering Suite
+              <p className="text-[10px] font-semibold tracking-wider text-indigo-600 dark:text-indigo-400">
+                Your personal AI prompt vault.
               </p>
             </div>
           </div>

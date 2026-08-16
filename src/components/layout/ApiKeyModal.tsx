@@ -72,10 +72,10 @@ export const ApiKeyModal: React.FC = () => {
             <span>Client-Side API Key Notice</span>
           </div>
           <ul className="list-disc list-inside space-y-1 text-[11px] leading-relaxed opacity-90">
-            <li>AI Prompt Vault operates entirely in your browser and does not have a backend server.</li>
+            <li>VaultForPrompt operates entirely in your browser and does not have a backend server.</li>
             <li>If entered, your OpenAI API key is stored locally in your browser's <code className="font-mono text-[10px] bg-amber-500/20 px-1 py-0.5 rounded">localStorage</code>.</li>
             <li>Requests are sent directly from your browser to OpenAI's API endpoints (<code className="font-mono text-[10px] bg-amber-500/20 px-1 py-0.5 rounded">api.openai.com</code>).</li>
-            <li>Your key is never sent to an AI Prompt Vault server because no backend server exists.</li>
+            <li>Your key is never sent to a VaultForPrompt server because no backend server exists.</li>
             <li>Only enter an API key you are comfortable storing in a client-side browser environment. You can clear your key at any time.</li>
           </ul>
         </div>

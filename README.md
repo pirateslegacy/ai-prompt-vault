@@ -1,6 +1,6 @@
-# AI Prompt Vault
+# VaultForPrompt
 
-**AI Prompt Vault** is a personal prompt management system and engineering workspace designed for AI engineers, prompt architects, and content creators. It enables users to organize, search, test, enhance, and version-control AI prompts locally inside their browser.
+**VaultForPrompt** is your personal AI prompt vault. Designed for AI engineers, prompt architects, and content creators, it enables users to organize, search, test, enhance, and version-control AI prompts locally inside their browser.
 
 ---
 

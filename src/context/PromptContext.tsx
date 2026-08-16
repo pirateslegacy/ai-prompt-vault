@@ -477,7 +477,7 @@ export const PromptProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       const collectionMsg = backup.collections.length > 0 ? ` and ${backup.collections.length} collections` : '';
       showToast(`Vault imported successfully. Restored ${backup.prompts.length} prompts${collectionMsg}.`, 'success');
     } catch (err: any) {
-      showToast(err.message || 'Invalid backup file. Please select a valid AI Prompt Vault JSON backup.', 'error');
+      showToast(err.message || 'Invalid backup file. Please select a valid VaultForPrompt JSON backup.', 'error');
     }
   };
 
